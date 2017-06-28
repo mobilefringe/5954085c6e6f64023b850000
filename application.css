@@ -394,7 +394,7 @@ body{
     }
 }
 
-.social_insta{
+.social_pinterest {
     background-image:url('//codecloud.cdn.speedyrails.net/sites/5954085c6e6f64023b850000/image/png/1498682322000/pinteresticon.png');
     &:hover{
         background-image: url('//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142775000/icon_insta_hover.png');
