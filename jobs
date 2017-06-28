@@ -28,7 +28,7 @@
         </div>
         <div class="col-md-4 hidden_phone">
             <img style="margin-bottom:20px;" src="//via.placeholder.com/300x300" class="" alt="">
-            <img style="" src="//via.placeholder.com/300x300" class="" alt="">
+            <img style="margin-bottom:20px;" src="//via.placeholder.com/300x300" class="" alt="">
         </div> 
     </div>
 </div>
