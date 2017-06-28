@@ -1,0 +1,61 @@
+<div class="content_container main_container">
+    <div class="promo_main_header">
+        JOBS
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="no_jobs" class="hidden_now">
+                <p>
+                    There are currently no job postings, please check back again later.
+                </p>
+            </div>
+            <div id="jobs_container">
+                <script id="jobs_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                        <div class="col-md-12">
+                            <h2 class="promo_list_name">{{name}}</h2>
+                            <p>
+                                <span class="promo_store">{{store_name}}</span>
+                                <span class="promo_store">{{job_type}}</span>
+                                <span class="promo_dates">{{published_on}}</span>
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/jobs/{{slug}}">Read More</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+        
+        <div class="col-md-4 hidden_phone">
+            <img style="margin-bottom:20px;" src="//via.placeholder.com/300x300" class="" alt="">
+            <img style="" src="//via.placeholder.com/300x300" class="" alt="">
+        </div> 
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var jobs = getJobsList().sortBy(function(o){ return o.name});
+            var published_jobs = [];
+            $.each( jobs , function( key, val ){
+                var today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_jobs.push(val)
+                } 
+            });
+            if(published_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', jobs);
+            }
+            else{
+                $('#no_jobs').show()
+            }
+            show_content();
+        }
+        
+		loadMallDataCached(renderAll); 
+    })
+</script>
