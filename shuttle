@@ -1,0 +1,37 @@
+<div class="content_container main_container">
+    <h4 class="promo_main_header">Shuttle</h3>
+    <div class="contact_container">
+        <div class="row">
+            <div class="col-md-8 contact_contents">
+                <div class="overlay2" onclick="style.pointerEvents='none'"></div>
+                <iframe class="hidden-phone" frameborder="0" height="400" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps/ms?source=s_q&amp;hl=en&amp;geocode=&amp;ie=UTF8&amp;hq=&amp;hnear=12821+Fair+Lakes+Pkwy,+Fairfax,+Virginia+22033&amp;msa=0&amp;ll=38.861227,-77.384538&amp;spn=0.007978,0.01134&amp;msid=102475095268508729307.000496fe3c41d625958e7&amp;z=14&amp;output=embed" width="100%"></iframe>
+                <div id="mm_page_content" class="promo_list_desc"></div>
+            </div>
+            <div class="col-md-4 hidden_phone">
+            </div> 
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        
+        prefix = get_prefix();
+        $('#top_banner').addClass(slug)
+        var pages_json = prefix + "/pages/fairlakes-shuttle.json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+            }
+        }); 
+        show_content();
+    }
+</script>
