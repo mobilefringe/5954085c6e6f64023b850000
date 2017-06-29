@@ -62,7 +62,7 @@
             <ul>
                 <li><a href="/stores">DIRECTORY</a></li>
                 <li><a href="/promotions">SPECIAL OFFERS</a></li>
-                <li><a href="/pages/fairfax-fairfax-corner-amenities">AMENITIES</a></li>
+                <li><a href="/shuttle">SHUTTLE</a></li>
                 <li><a href="/events">EVENTS</a></li>
                 <li><a href="/directions">DIRECTIONS</a></li>
                 <li><a href="/about_us">ABOUT US</a></li>
@@ -123,7 +123,7 @@
             <a href="/stores">directory</a>
             <a href="/events">events</a>
             <a href="/promotions">special offers</a>
-             <a href="/pages/fairfax-fairfax-corner-amenities">amenities</a>
+             <a href="/shuttle">shuttle</a>
             <a href="/directions">directions</a>
         </div>
     </section>
@@ -181,7 +181,7 @@
                             <ul>
                                 <li><a href="/stores">Directory</a></li>
                                 <li><a href="/promotions">Special Offers</a></li>
-                                <li><a href="/pages/fairfax-fairfax-corner-amenities">Amenities</a></li>
+                                <li><a href="/shuttle">Shuttle</a></li>
                                 <li><a href="/events">Events</a></li>
                                 <li><a href="/directions">Directions</a></li>
                             </ul>
