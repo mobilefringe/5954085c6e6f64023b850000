@@ -4,7 +4,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="overlay2" onclick="style.pointerEvents='none'"></div>
-                <iframe class="direction_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12427.474211459425!2d-77.3565148!3d38.8583658!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1ea126b72e10a39!2sFairfax+Corner!5e0!3m2!1sen!2sca!4v1477418923253" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <img alt="" class="uploaded-img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?center=38.859213,-77.391455&amp;zoom=15&amp;size=600x500&amp;maptype=roadmap&amp;sensor=false&amp;markers=color:red%7Ccolor:red%7Clabel:%7C38.859213,-77.391455" />
+                <!--<iframe class="direction_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12427.474211459425!2d-77.3565148!3d38.8583658!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1ea126b72e10a39!2sFairfax+Corner!5e0!3m2!1sen!2sca!4v1477418923253" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>-->
                 <div id="mm_page_content" class="promo_list_desc"></div>
             </div>
             <div class="col-md-4 hidden_phone">
