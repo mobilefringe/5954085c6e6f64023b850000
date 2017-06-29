@@ -870,6 +870,7 @@ body{
 @media(max-width: 768px){
     body {
         background-color: #fff;
+        background-image: none;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -1057,7 +1058,7 @@ body{
     .header{
         padding: 15px;
         background-color: #b9dcd2;
-    background-image: url(//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1477424912000/bg_fairfax.png);
+        background-image: url(//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1477424912000/bg_fairfax.png);
     }
     
     .mobile_margin{
