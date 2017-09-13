@@ -10,7 +10,7 @@
     </div>
     <div class="map_container">
         <div id="map2">
-            <img alt="map" id="map_image" src="//www.mallmaverick.com/system/properties/maps/000/000/022/original/final-fixes_copy2.jpg?1384547281" />
+            <img alt="map" id="map_image" src="" />
         </div>
     </div>
     
@@ -28,6 +28,7 @@
                 $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none"><a style="color:#fff" href=/stores/'+val.slug +'>' + val.name + '</a></div>')
             });  
             show_content();
+            $("#map_image").attr("src", getPNGMapURL());
             $('#map2').craftmap({
     			image: {
     				width: 1690,
