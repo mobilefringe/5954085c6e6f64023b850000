@@ -1,0 +1,52 @@
+<div class="content_container main_container">
+    <h4 class="promo_main_header">About Us</h3>
+    <div class="about_container">
+        <div class="row">
+            <div class="col-md-8 ">
+                <img class="about_banner" src="///sites/59b99e8d6e6f640e04790100/image/png/1508967306000/Screen Shot 2017-10-25 at 5.34.46 PM.png" alt="">
+                <div id="mm_page_content" class="promo_list_desc"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-12 property_right">
+                    <h2 class="promo_list_name">Property Management</h2>
+                    <div class="col-md-12">
+                        <a href="">Betty Rose</a>
+                        <div class="contact_addresss promo_list_desc">
+                            brose@petersoncos.com<br/>703-227-0884
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="">Vonnette Dupree</a>
+                        <div class="contact_addresss promo_list_desc">
+                            Assistant Property Manager<br/>vdupree@petersoncos.com<br/>703-227-0890
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        
+        prefix = get_prefix();
+        $('#top_banner').addClass(slug)
+        var pages_json = prefix + "/pages/fairlakes-about-us.json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+            }
+        }); 
+        show_content();
+    }
+</script>
