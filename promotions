@@ -31,7 +31,7 @@
             </div>
         </div>
         
-        <div class="col-md-4">
+        <div class="col-md-4" id="promo_categories">
             <p class="category_header">Categories</p>
             <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>
             <div id="category_container" class="hidden_phone">
@@ -70,7 +70,8 @@
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos);
             } else {
-                $('#no_promos').show()
+                $('#no_promos').show();
+                $('#promo_categories').hide();
             }
             show_content();
         }
