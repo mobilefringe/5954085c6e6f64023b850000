@@ -38,7 +38,7 @@
             <script id="mobile_banner_template" type="x-tmpl-mustache/text">
                 <li>
                     <a class="banner_image_li" href="{{url}}" >
-                        <img src="{{photo_url_abs}}" alt="banner"/>
+                        <img src="{{image_url}}" alt="banner"/>
                     </a>
                 </li>
             </script>
