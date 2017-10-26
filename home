@@ -80,6 +80,11 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1509035073000/image2.jpg"  class="{{gif_class}}"/>
                 </a>
             </li>
+            <li>
+                <a class="banner_image_li" href="{{url}}">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1509035073000/image3.jpg"  class="{{gif_class}}"/>
+                </a>
+            </li>
             
         </ul>
     </div>
