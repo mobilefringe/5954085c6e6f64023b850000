@@ -139,12 +139,12 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
-            var mobile_banners = getRepoDetailsByName("Mobile Banners").images;
+            var mobile_banners = getRepoDetailsByName("Mobile Banners");
             console.log(mobile_banners)
             var feature_items = getFeatureList();
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             renderBanner('#banner_template','#home_banner',banners);
-            renderMobileBanner('#mobile_banner_template', '#mobile_banner', mobile_banner);
+            renderMobileBanner('#mobile_banner_template', '#mobile_banner', mobile_banner.images);
             renderFeatureItems('#feature_container','#feature_template', feature_items);
             var published_promos = [];
             $.each( promotions , function( key, val ){
