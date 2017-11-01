@@ -132,8 +132,8 @@
             show_content();
             
             $(".card-header").click(function() {
-                $(this + ".fa-angle-down").hide();
-                $(this + ".fa-angle-up").show();
+                $(this).find(".fa-angle-down").hide();
+                $(this).find(".fa-angle-up").show();
             });
             
             var stores = getStoresList(); 
