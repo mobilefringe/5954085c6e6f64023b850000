@@ -204,7 +204,7 @@
             renderStoreList('#fair_lakes_shops_container','#store_list_template', fair_lakes_shops, "A", "Z");
 
             var hotels = getStoresListByCategoryID(958);
-            
+            renderStoreList('#hotels_container','#store_list_template', hotels, "A", "Z");
             
             var categories = getStoreCategories();
             var category_list = [];
