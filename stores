@@ -109,22 +109,16 @@
         <!--</div>-->
         <div class="col-md-12">
             
-            <div class="row">
-                <div class="col-md-12">
+            <!--<div class="row">-->
+            <!--    <div class="col-md-12">-->
                     <p class="center_name">East Market</p>
-                </div>
-                <div class="col-md-4">
+                <!--</div>-->
+                <div class="">
                     <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
                     <div id="numbered_store_list_container" class="numbers_exist"></div>
                     <div class="store_list" id="east_market_container1"></div>        
                 </div>
-                <div class="col-md-4">
-                    <div class="store_list" id="east_market_container2"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="store_list" id="east_market_container3"></div>
-                </div>
-            </div>
+            <!--</div>-->
             <div class="row">
                 <div class="col-md-12">
                     <p class="center_name">Fair Lakes Center</p>
