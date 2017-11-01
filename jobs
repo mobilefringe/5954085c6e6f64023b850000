@@ -26,10 +26,10 @@
                 </script>
             </div>
         </div>
-        <!--<div class="col-md-4 hidden_phone">-->
-        <!--    <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1508956088000/Feature Image 1.jpg" class="" alt="">-->
-        <!--    <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1508956088000/Feature Image 3.jpg" class="" alt="">-->
-        <!--</div> -->
+        <div class="col-md-4 hidden_phone">
+            <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1508956088000/Feature Image 1.jpg" class="" alt="">
+            <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1508956088000/Feature Image 3.jpg" class="" alt="">
+        </div> 
     </div>
 </div>
 
