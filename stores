@@ -110,7 +110,7 @@
         <div class="col-md-8">
             
             <div class="row">
-                <h5>East Market</h5>
+                <p class="store_main_desc">East Market</p>
                 <div class="col-md-6">
                     <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
                     <div id="numbered_store_list_container" class="numbers_exist"></div>
@@ -121,7 +121,7 @@
                 </div>
             </div>
             <div class="row">
-                <h5>Fair Lakes Center</h5>
+                <p class="store_main_desc">Fair Lakes Center</p>
                 <div class="col-md-6">
                     <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
                     <div id="numbered_store_list_container" class="numbers_exist"></div>
@@ -132,7 +132,7 @@
                 </div>
             </div>
             <div class="row">
-                <h5>Fair Lakes Shops</h5>
+                <p class="store_main_desc">Fair Lakes Shops</p>
                 <div class="col-md-6">
                     <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
                     <div id="numbered_store_list_container" class="numbers_exist"></div>
