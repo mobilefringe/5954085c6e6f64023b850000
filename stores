@@ -115,14 +115,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var stores = getStoresList(); 
-            renderStoreList('#store_list_container','#store_list_template', stores, "A", "L");
-            renderStoreList('#store_list_container2','#store_list_template', stores, "M", "Z");
-            renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
-            renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
-            
             var east_market = getStoresListByCategoryID(913).sortBy(function(o){ return o.name });
-            console.log(east_market)
             renderStoreList('#east_market_container','#store_list_template', east_market, "A", "Z");
 
             var fair_lakes_center = getStoresListByCategoryID(933).sortBy(function(o){ return o.name });
@@ -134,31 +127,20 @@
             var hotels = getStoresListByCategoryID(959).sortBy(function(o){ return o.name });
             renderStoreList('#hotels_container','#store_list_template', hotels, "A", "Z");
             
-            var categories = getStoreCategories();
-            var category_list = [];
-            $.each( categories, function( key, val ){
-                if (val.store_ids != null) {
-                    category_list.push(val);
-                } 
-            });
-            renderGeneral('#category_container', '#category_template', category_list);
-            renderGeneral('#mobile_cat_list', '#category_template2', category_list);
-            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            // show_cat_stores();
             
-            show_cat_stores();
-            
-            var coming_soon_stores = getComingSoonList();
-            var new_stores = getNewStoresList();
-            if (new_stores.length > 0){
-                renderGeneral("#new_store_container","#new_store_template", new_stores);
-            } else {
-                $('#new_stores').hide();
-            }
-            if (coming_soon_stores.length > 0){
-                renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
-            } else {
-                $('#coming_soon_stores').hide();
-            }
+            // var coming_soon_stores = getComingSoonList();
+            // var new_stores = getNewStoresList();
+            // if (new_stores.length > 0){
+            //     renderGeneral("#new_store_container","#new_store_template", new_stores);
+            // } else {
+            //     $('#new_stores').hide();
+            // }
+            // if (coming_soon_stores.length > 0){
+            //     renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
+            // } else {
+            //     $('#coming_soon_stores').hide();
+            // }
             
             show_content();
             
