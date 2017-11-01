@@ -39,8 +39,8 @@
                                 <div class="store_list" id="east_market_container"></div>        
                             </div>
                         </div>
+                        <hr>
                     </div>
-                    <hr>
                 </div>
                 <div class="card center_container">
                     <div class="card-header" role="tab" id="headingTwo">
