@@ -62,6 +62,46 @@
                         <hr>
                     </div>
                 </div>
+                <div class="card center_container">
+                    <div class="card-header" role="tab" id="headingThree">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            <h5 class="center_name">
+                                Fair Lakes Shops
+                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
+                            </h5>
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="card-block">
+                            <div class="store_container">
+                                <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
+                                <div id="numbered_store_list_container" class="numbers_exist"></div>
+                                <div class="store_list" id="fair_lakes_shops_container"></div>             
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="card center_container">
+                    <div class="card-header" role="tab" id="headingThree">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            <h5 class="center_name">
+                                Hotels & Residences
+                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
+                            </h5>
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="card-block">
+                            <div class="store_container">
+                                <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
+                                <div id="numbered_store_list_container" class="numbers_exist"></div>
+                                <div class="store_list" id="hotel_container"></div>            
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
             </div>
         
             <!--<div class="center_container">-->
@@ -81,16 +121,16 @@
             <!--        <div class="store_list" id="fair_lakes_center_container"></div>        -->
             <!--    </div>-->
             <!--</div>-->
-            <hr>
-            <div class="center_container">
-                <p class="center_name">Fair Lakes Shops</p>
-                <div class="store_container">
-                    <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
-                    <div id="numbered_store_list_container" class="numbers_exist"></div>
-                    <div class="store_list" id="fair_lakes_shops_container"></div>        
-                </div>
-            </div>
-            <hr>
+            <!--<hr>-->
+            <!--<div class="center_container">-->
+            <!--    <p class="center_name">Fair Lakes Shops</p>-->
+            <!--    <div class="store_container">-->
+            <!--        <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>-->
+            <!--        <div id="numbered_store_list_container" class="numbers_exist"></div>-->
+            <!--        <div class="store_list" id="fair_lakes_shops_container"></div>        -->
+            <!--    </div>-->
+            <!--</div>-->
+            <!--<hr>-->
             <div class="center_container">
                 <p class="center_name">Hotels & Residences</p>
                 <div class="store_container">
