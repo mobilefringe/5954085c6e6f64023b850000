@@ -88,7 +88,7 @@
                     <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                         <div class="card-block">
                             <div class="store_container">
-                                <div class="store_list" id="hotel_container"></div>            
+                                <div class="store_list" id="hotels_container"></div>            
                             </div>
                         </div>
                         <hr>
