@@ -119,6 +119,9 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
+            var stores = getStoresList(); 
+            renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
+            
             var east_market = getStoresListByCategoryID(913).sortBy(function(o){ return o.name });
             renderStoreList('#east_market_container','#store_list_template', east_market, "A", "Z");
 
@@ -138,7 +141,7 @@
                 $(this).find(".fa-angle-up").toggle();
             });
             
-            var stores = getStoresList(); 
+            
             $.each(stores, function(i, val){
                 x = val.x_coordinate - 19;
                 y = val.y_coordinate - 58;
