@@ -127,23 +127,9 @@
             var hotels = getStoresListByCategoryID(959).sortBy(function(o){ return o.name });
             renderStoreList('#hotels_container','#store_list_template', hotels, "A", "Z");
             
-            // show_cat_stores();
-            
-            // var coming_soon_stores = getComingSoonList();
-            // var new_stores = getNewStoresList();
-            // if (new_stores.length > 0){
-            //     renderGeneral("#new_store_container","#new_store_template", new_stores);
-            // } else {
-            //     $('#new_stores').hide();
-            // }
-            // if (coming_soon_stores.length > 0){
-            //     renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
-            // } else {
-            //     $('#coming_soon_stores').hide();
-            // }
-            
             show_content();
             
+            var stores = getStoresList(); 
             $.each(stores, function(i, val){
                 x = val.x_coordinate - 19;
                 y = val.y_coordinate - 58;
