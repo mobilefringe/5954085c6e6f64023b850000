@@ -103,42 +103,6 @@
                     </div>
                 </div>
             </div>
-        
-            <!--<div class="center_container">-->
-            <!--    <p class="center_name">East Market</p>-->
-            <!--    <div class="store_container">-->
-            <!--        <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>-->
-            <!--        <div id="numbered_store_list_container" class="numbers_exist"></div>-->
-            <!--        <div class="store_list" id="east_market_container"></div>        -->
-            <!--    </div>-->
-            <!--</div>-->
-            
-            <!--<div class="center_container">-->
-            <!--    <p class="center_name">Fair Lakes Center</p>-->
-            <!--    <div class="store_container">-->
-            <!--        <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>-->
-            <!--        <div id="numbered_store_list_container" class="numbers_exist"></div>-->
-            <!--        <div class="store_list" id="fair_lakes_center_container"></div>        -->
-            <!--    </div>-->
-            <!--</div>-->
-            <!--<hr>-->
-            <!--<div class="center_container">-->
-            <!--    <p class="center_name">Fair Lakes Shops</p>-->
-            <!--    <div class="store_container">-->
-            <!--        <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>-->
-            <!--        <div id="numbered_store_list_container" class="numbers_exist"></div>-->
-            <!--        <div class="store_list" id="fair_lakes_shops_container"></div>        -->
-            <!--    </div>-->
-            <!--</div>-->
-            <!--<hr>-->
-            <div class="center_container">
-                <p class="center_name">Hotels & Residences</p>
-                <div class="store_container">
-                    <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
-                    <div id="numbered_store_list_container" class="numbers_exist"></div>
-                    <div class="store_list" id="hotel_container"></div>        
-                </div>
-            </div>
         </div>
     </div>
 </div>
