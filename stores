@@ -28,7 +28,7 @@
                             <h5 class="center_name">
                                 East Market
                                 <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>
-                                <i class="fa fa-angle-up pull-right" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up pull-right hidden_now" aria-hidden="true"></i>
                             </h5>
                         </a>
                     </div>
@@ -47,7 +47,7 @@
                             <h5 class="center_name">
                                 Fair Lakes Center
                                 <i class="fa fa-angle-down pull-right" aria-hidden="true"></i> 
-                                <i class="fa fa-angle-up pull-right" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up pull-right hidden_now" aria-hidden="true"></i>
                             </h5>
                         </a>
                     </div>
