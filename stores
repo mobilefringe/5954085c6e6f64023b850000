@@ -151,10 +151,10 @@
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             
-            var east_market = getStoresListByCategoryID();
-            var fair_lakes_center = getStoresListByCategoryID();
-            var fair_lakes_shops = getStoresListByCategoryID();
-            var hotels = getStoresListByCategoryID();
+            var east_market = getStoresListByCategoryID(913);
+            var fair_lakes_center = getStoresListByCategoryID(933);
+            var fair_lakes_shops = getStoresListByCategoryID(956);
+            var hotels = getStoresListByCategoryID(958);
             
             
             var categories = getStoreCategories();
