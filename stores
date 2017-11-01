@@ -17,42 +17,42 @@
     <p class="store_main_desc">explore • enjoy • shop</p>
     <div class="mobile_padding show_phone">
         <a href="/map" class="mobile_dd">Open Center Map</a>
-        <select id="mobile_cat_list" class="form-control custom_form_control">
-            <script id="category_template2" type="x-tmpl-mustache/text">
-                <option value="{{id}}">{{name}}</option>
-            </script>
-        </select>
-        <select id="mobile_alpha_list" class="form-control custom_form_control">
-            <option disabled="disabled" selected>Index</option>
-            <option value="7">top</option>
-            <option value="7">#</option>
-            <option value="a">a</option>
-            <option value="b">b</option>
-            <option value="c">c</option>
-            <option value="d">d</option>
-            <option value="e">e</option>
-            <option value="f">f</option>
-            <option value="g">g</option>
-            <option value="h">h</option>
-            <option value="i">i</option>
-            <option value="j">j</option>
-            <option value="k">k</option>
-            <option value="l">l</option>
-            <option value="m">m</option>
-            <option value="n">n</option>
-            <option value="o">o</option>
-            <option value="p">p</option>
-            <option value="q">q</option>
-            <option value="r">r</option>
-            <option value="s">s</option>
-            <option value="t">t</option>
-            <option value="u">u</option>
-            <option value="v">v</option>
-            <option value="w">w</option>
-            <option value="x">x</option>
-            <option value="y">y</option>
-            <option value="z">z</option>
-        </select>
+        <!--<select id="mobile_cat_list" class="form-control custom_form_control">-->
+        <!--    <script id="category_template2" type="x-tmpl-mustache/text">-->
+        <!--        <option value="{{id}}">{{name}}</option>-->
+        <!--    </script>-->
+        <!--</select>-->
+        <!--<select id="mobile_alpha_list" class="form-control custom_form_control">-->
+        <!--    <option disabled="disabled" selected>Index</option>-->
+        <!--    <option value="7">top</option>-->
+        <!--    <option value="7">#</option>-->
+        <!--    <option value="a">a</option>-->
+        <!--    <option value="b">b</option>-->
+        <!--    <option value="c">c</option>-->
+        <!--    <option value="d">d</option>-->
+        <!--    <option value="e">e</option>-->
+        <!--    <option value="f">f</option>-->
+        <!--    <option value="g">g</option>-->
+        <!--    <option value="h">h</option>-->
+        <!--    <option value="i">i</option>-->
+        <!--    <option value="j">j</option>-->
+        <!--    <option value="k">k</option>-->
+        <!--    <option value="l">l</option>-->
+        <!--    <option value="m">m</option>-->
+        <!--    <option value="n">n</option>-->
+        <!--    <option value="o">o</option>-->
+        <!--    <option value="p">p</option>-->
+        <!--    <option value="q">q</option>-->
+        <!--    <option value="r">r</option>-->
+        <!--    <option value="s">s</option>-->
+        <!--    <option value="t">t</option>-->
+        <!--    <option value="u">u</option>-->
+        <!--    <option value="v">v</option>-->
+        <!--    <option value="w">w</option>-->
+        <!--    <option value="x">x</option>-->
+        <!--    <option value="y">y</option>-->
+        <!--    <option value="z">z</option>-->
+        <!--</select>-->
         
     </div>
     <div class="row">
