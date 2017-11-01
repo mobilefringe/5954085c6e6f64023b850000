@@ -879,7 +879,13 @@ body{
     }
     
 }
-
+@media(max-width: 425px){
+    .center_container {
+        .store_container {
+            column-count: 1;
+        }
+    }
+}
 .promo_details_container{
     margin-top:25px;
 }
