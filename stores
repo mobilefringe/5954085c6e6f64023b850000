@@ -26,8 +26,10 @@
                     <div class="card-header" role="tab" id="headingOne">
                         
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h5 class="center_name">East Market</h5>
-                            <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>
+                            <h5 class="center_name">
+                                East Market
+                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
+                            </h5>
                         </a>
                         
                     </div>
