@@ -30,16 +30,19 @@
                 </script>
             </div>
         </div>
-        
-        <div class="col-md-4" id="promo_categories">
-            <p class="category_header">Categories</p>
-            <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>
-            <div id="category_container" class="hidden_phone">
-                <script id="category_template" type="x-tmpl-mustache/text">
-                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
-                </script>
-            </div>
-        </div>
+        <div class="col-md-4 hidden_phone">
+            <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/png/1509548410000/events_feature_1.png" alt="">
+            <!--<img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/png/1509548407000/events_feature_2.png" class="" alt="">-->
+        </div> 
+        <!--<div class="col-md-4" id="promo_categories">-->
+        <!--    <p class="category_header">Categories</p>-->
+        <!--    <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>-->
+        <!--    <div id="category_container" class="hidden_phone">-->
+        <!--        <script id="category_template" type="x-tmpl-mustache/text">-->
+        <!--            <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    -->
+        <!--        </script>-->
+        <!--    </div>-->
+        <!--</div>-->
     </div>
 </div>
 
