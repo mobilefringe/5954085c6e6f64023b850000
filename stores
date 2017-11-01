@@ -134,6 +134,12 @@
         </div>
     </div>
 </div>
+<script id="numbered_store_list_template" type="x-tmpl-mustache/text">
+    <div class="store_list_content cats_row" data-cat="{{cat_list}}">
+        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+    </div>
+</script>
+                        
 <script id="store_list_template" type="x-tmpl-mustache/text">
     <div class="store_list_content cats_row" data-cat="{{cat_list}}">
         <p class="store_initial" style="{{show}}" id="{{initial}}">{{initial}}</p>
