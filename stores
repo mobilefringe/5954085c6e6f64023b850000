@@ -65,7 +65,8 @@
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                             <h5 class="center_name">
                                 Fair Lakes Shops
-                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
+                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i> 
+                                <i class="fa fa-angle-up pull-right hidden_now" aria-hidden="true"></i>    
                             </h5>
                         </a>
                     </div>
@@ -83,7 +84,8 @@
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                             <h5 class="center_name">
                                 Hotels & Residences
-                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
+                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i> 
+                                <i class="fa fa-angle-up pull-right hidden_now" aria-hidden="true"></i>    
                             </h5>
                         </a>
                     </div>
