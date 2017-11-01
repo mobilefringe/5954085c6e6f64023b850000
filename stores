@@ -24,7 +24,7 @@
             <div id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="card center_container">
                     <div class="card-header" role="tab" id="headingOne">
-                        <h5 class="mb-0 centre_name">
+                        <h5 class="mb-0 center_name">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                               East Market
                             </a>
