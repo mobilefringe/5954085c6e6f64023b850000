@@ -27,7 +27,8 @@
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <h5 class="center_name">
                                 East Market
-                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
+                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>
+                                <i class="fa fa-angle-up pull-right" aria-hidden="true"></i>
                             </h5>
                         </a>
                     </div>
@@ -128,6 +129,11 @@
             renderStoreList('#hotels_container','#store_list_template', hotels, "A", "Z");
             
             show_content();
+            
+            $(".card-header").click(function() {
+                $(this + ".fa-angle-down").hide();
+                $(this + ".fa-angle-up").show();
+            });
             
             var stores = getStoresList(); 
             $.each(stores, function(i, val){
