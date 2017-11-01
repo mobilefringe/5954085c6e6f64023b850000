@@ -131,7 +131,7 @@
             var fair_lakes_shops = getStoresListByCategoryID(956).sortBy(function(o){ return o.name });
             renderStoreList('#fair_lakes_shops_container','#store_list_template', fair_lakes_shops, "A", "Z");
 
-            var hotels = getStoresListByCategoryID(958).sortBy(function(o){ return o.name });
+            var hotels = getStoresListByCategoryID(959).sortBy(function(o){ return o.name });
             renderStoreList('#hotels_container','#store_list_template', hotels, "A", "Z");
             
             var categories = getStoreCategories();
