@@ -120,6 +120,17 @@
                     <div class="store_list" id="east_market_container2"></div>
                 </div>
             </div>
+            <div class="row">
+                <h5>Fair Lakes Center</h5>
+                <div class="col-md-6">
+                    <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
+                    <div id="numbered_store_list_container" class="numbers_exist"></div>
+                    <div class="store_list" id="fair_lakes_center_container1"></div>        
+                </div>
+                <div class="col-md-6">
+                    <div class="store_list" id="fair_lakes_center_container2"></div>
+                </div>
+            </div>
         </div>
         <div class="col-md-4 hidden_phone">
         <!--    <p class="category_header">Categories</p>-->
