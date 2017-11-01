@@ -88,22 +88,36 @@
         <!--        <a href="#Z">Z</a>-->
         <!--    </div>-->
         <!--</div>-->
+        <!--<div class="col-md-8">-->
+        <!--    <h5 class="category_header" style="display:none" id="cat_name_header">All</h5>-->
+        <!--    <div class="row">-->
+        <!--        <div class="col-md-6">-->
+        <!--            <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>-->
+        <!--            <div id="numbered_store_list_container" class="numbers_exist">-->
+        <!--                <script id="numbered_store_list_template" type="x-tmpl-mustache/text">-->
+        <!--                    <div class="store_list_content cats_row" data-cat="{{cat_list}}">-->
+        <!--                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>-->
+        <!--                    </div>-->
+        <!--                </script>-->
+        <!--            </div>-->
+        <!--            <div class="store_list" id="store_list_container"></div>        -->
+        <!--        </div>-->
+        <!--        <div class="col-md-6">-->
+        <!--            <div class="store_list" id="store_list_container2"></div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
         <div class="col-md-8">
-            <h5 class="category_header" style="display:none" id="cat_name_header">All</h5>
+            
             <div class="row">
+                <h5>East Market</h5>
                 <div class="col-md-6">
                     <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
-                    <div id="numbered_store_list_container" class="numbers_exist">
-                        <script id="numbered_store_list_template" type="x-tmpl-mustache/text">
-                            <div class="store_list_content cats_row" data-cat="{{cat_list}}">
-                                <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
-                            </div>
-                        </script>
-                    </div>
-                    <div class="store_list" id="store_list_container"></div>        
+                    <div id="numbered_store_list_container" class="numbers_exist"></div>
+                    <div class="store_list" id="east_market_container1"></div>        
                 </div>
                 <div class="col-md-6">
-                    <div class="store_list" id="store_list_container2"></div>
+                    <div class="store_list" id="east_market_container2"></div>
                 </div>
             </div>
         </div>
@@ -158,6 +172,8 @@
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             
             var east_market = getStoresListByCategoryID(913);
+            renderStoreList('#east_market_container1','#store_list_template', east_market, "A", "L");
+            renderStoreList('#east_market_container2','#store_list_template', east_market, "M", "Z");
             var fair_lakes_center = getStoresListByCategoryID(933);
             var fair_lakes_shops = getStoresListByCategoryID(956);
             var hotels = getStoresListByCategoryID(958);
