@@ -24,16 +24,13 @@
             <div id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="card center_container">
                     <div class="card-header" role="tab" id="headingOne">
-                        
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <h5 class="center_name">
                                 East Market
                                 <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
                             </h5>
                         </a>
-                        
                     </div>
-            
                     <div id="collapseOne" class="collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="card-block">
                             <div class="store_container">
@@ -43,6 +40,27 @@
                             </div>
                         </div>
                     </div>
+                    <hr>
+                </div>
+                <div class="card center_container">
+                    <div class="card-header" role="tab" id="headingTwo">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            <h5 class="center_name">
+                                Fair Lakes Center
+                                <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
+                            </h5>
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="card-block">
+                            <div class="store_container">
+                                <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
+                                <div id="numbered_store_list_container" class="numbers_exist"></div>
+                                <div class="store_list" id="fair_lakes_center_container"></div>       
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
                 </div>
             </div>
         
@@ -54,15 +72,15 @@
             <!--        <div class="store_list" id="east_market_container"></div>        -->
             <!--    </div>-->
             <!--</div>-->
-            <hr>
-            <div class="center_container">
-                <p class="center_name">Fair Lakes Center</p>
-                <div class="store_container">
-                    <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
-                    <div id="numbered_store_list_container" class="numbers_exist"></div>
-                    <div class="store_list" id="fair_lakes_center_container"></div>        
-                </div>
-            </div>
+            
+            <!--<div class="center_container">-->
+            <!--    <p class="center_name">Fair Lakes Center</p>-->
+            <!--    <div class="store_container">-->
+            <!--        <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>-->
+            <!--        <div id="numbered_store_list_container" class="numbers_exist"></div>-->
+            <!--        <div class="store_list" id="fair_lakes_center_container"></div>        -->
+            <!--    </div>-->
+            <!--</div>-->
             <hr>
             <div class="center_container">
                 <p class="center_name">Fair Lakes Shops</p>
