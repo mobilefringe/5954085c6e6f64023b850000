@@ -151,6 +151,12 @@
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             
+            var east_market = getStoresListByCategoryID();
+            var fair_lakes_center = getStoresListByCategoryID();
+            var fair_lakes_shops = getStoresListByCategoryID();
+            var hotels = getStoresListByCategoryID();
+            
+            
             var categories = getStoreCategories();
             var category_list = [];
             $.each( categories, function( key, val ){
