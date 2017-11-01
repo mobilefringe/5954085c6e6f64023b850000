@@ -197,9 +197,9 @@
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             
             var east_market = getStoresListByCategoryID(913);
-            renderStoreList('#east_market_container1','#store_list_template', east_market, "A", "I");
-            renderStoreList('#east_market_container2','#store_list_template', east_market, "J", "Q");
-            renderStoreList('#east_market_container3','#store_list_template', east_market, "R", "Z");
+            renderStoreList('#east_market_container1','#store_list_template', east_market, "A", "Z");
+            // renderStoreList('#east_market_container2','#store_list_template', east_market, "J", "Q");
+            // renderStoreList('#east_market_container3','#store_list_template', east_market, "R", "Z");
             var fair_lakes_center = getStoresListByCategoryID(933);
             renderStoreList('#fair_lakes_center_container1','#store_list_template', fair_lakes_center, "A", "L");
             renderStoreList('#fair_lakes_center_container2','#store_list_template', fair_lakes_center, "M", "Z");
