@@ -20,14 +20,37 @@
     </div>
     <div class="row">
         <div class="col-sm-12">
-            <div class="center_container">
-                <p class="center_name">East Market</p>
-                <div class="store_container">
-                    <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
-                    <div id="numbered_store_list_container" class="numbers_exist"></div>
-                    <div class="store_list" id="east_market_container"></div>        
+        
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingOne">
+                        <h5 class="mb-0 center_name">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              East Market
+                            </a>
+                        </h5>
+                    </div>
+            
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="card-block">
+                            <div class="store_container">
+                                <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
+                                <div id="numbered_store_list_container" class="numbers_exist"></div>
+                                <div class="store_list" id="east_market_container"></div>        
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        
+            <!--<div class="center_container">-->
+            <!--    <p class="center_name">East Market</p>-->
+            <!--    <div class="store_container">-->
+            <!--        <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>-->
+            <!--        <div id="numbered_store_list_container" class="numbers_exist"></div>-->
+            <!--        <div class="store_list" id="east_market_container"></div>        -->
+            <!--    </div>-->
+            <!--</div>-->
             <hr>
             <div class="center_container">
                 <p class="center_name">Fair Lakes Center</p>
