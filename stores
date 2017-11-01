@@ -121,7 +121,7 @@
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             
-            var east_market = getStoresListByCategoryID(913);
+            var east_market = getStoresListByCategoryID(913).sortBy(function(o){ return o.name });;
             console.log(east_market)
             renderStoreList('#east_market_container','#store_list_template', east_market, "A", "Z");
 
