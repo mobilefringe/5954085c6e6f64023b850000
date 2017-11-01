@@ -83,15 +83,15 @@
                     </div>
                 </div>
                 <div class="card center_container">
-                    <div class="card-header" role="tab" id="headingThree">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    <div class="card-header" role="tab" id="headingFour">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                             <h5 class="center_name">
                                 Hotels & Residences
                                 <i class="fa fa-angle-down pull-right" aria-hidden="true"></i>    
                             </h5>
                         </a>
                     </div>
-                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                         <div class="card-block">
                             <div class="store_container">
                                 <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
