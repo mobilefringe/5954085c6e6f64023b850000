@@ -122,6 +122,7 @@
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             
             var east_market = getStoresListByCategoryID(913);
+            console.log(east_market)
             renderStoreList('#east_market_container','#store_list_template', east_market, "A", "Z");
 
             var fair_lakes_center = getStoresListByCategoryID(933);
