@@ -82,9 +82,9 @@
                 <a href="https://www.pinterest.com/fairlakesleague/" target="_blank">
                     <img src="//codecloud.cdn.speedyrails.net/sites/5954085c6e6f64023b850000/image/png/1498682322000/pinteresticon.png" class="" alt="Pinterest">
                 </a>
-                <a href="/newsletter" target="_blank">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143466000/icon_newsletter_white.png" class="" alt="">
-                </a>
+                <!--<a href="/newsletter" target="_blank">-->
+                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143466000/icon_newsletter_white.png" class="" alt="">-->
+                <!--</a>-->
             </div>
         </div>
     </div>
