@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'blanch';
+  src: url('//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000//1491595550000/Blanch-Caps.woff')
+}
+
+
+@font-face {
+  font-family: 'sentinel';
+  src: url('//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000//1491596150000/Sentinel-Book.woff')
+}
+
+@font-face {
+  font-family: 'beloved';
+  src: url('//codecloud.cdn.speedyrails.net/sites/581107b46e6f642cc0000000//1491597046000/beloved.woff')
+}
+
+.feature_item figure figcaption .view_button{
+   background: #b9dcd2;
+    color:black;
+}
+
+.main_logo {
+    width:120px;
+}
+
+.hidden-popup-form{
+    margin:5% auto;
+    width:650px;
+    max-height: 80%;
+    height: initial;
+}
+
+.popup-close{
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    margin-top: 16px;
+    color: transparent;
+}
+
+.pp_img_bg{
+    position: absolute;
+    top: 0;
+    width:650px !important;
+}
+
+.newsletter-form{
+    position: absolute;
+    z-index: 9;
+    left: 50px;
+    top: 50px;
+    max-width: 50%;
+    
+    h3{
+        font-family: blanch;
+        font-size: 100px;
+        color: #009BDA;
+        text-align: center;
+        line-height: 55px;
+        margin-bottom: 20px;;
+    }
+    p{
+        font-family:sentinel;
+        font-size: 19px;
+        text-align: center;
+        line-height: 20px;
+    }
+ 
+}
+
+.flexslider .flex-control-nav {
+    bottom: 10px;
+    display: none;
+}
+.newsletter_btn_popup{
+    font-family:beloved;
+    color:#fff;
+    background: #009BDA;
+    font-size:38px;
+    border:0;
+    padding: 0px 20px;
+}
+
+.popup-close-form{
+    z-index:9;
+    width: 30px !important;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
