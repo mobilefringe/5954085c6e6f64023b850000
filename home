@@ -52,56 +52,56 @@
 </div>
 
 
-<!--<div class="content_container hidden_phone">-->
-<!--    <div class="flexslider">-->
-<!--        <ul class="slides" id="home_banner">-->
-<!--            <script id="banner_template" type="x-tmpl-mustache/text">-->
-<!--                <li>-->
-<!--                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >-->
-<!--                        <img src="{{image_url}}"  class="{{gif_class}}"/>-->
-<!--                    </a>-->
-<!--                </li>-->
-<!--            </script>-->
-<!--        </ul>-->
-<!--    </div>-->
-<!--</div>-->
-
 <div class="content_container hidden_phone">
     <div class="flexslider">
-        <ul class="slides">
-            <li>
-                <a class="banner_image_li" href="{{url}}">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1509035073000/image1.jpg"  class="{{gif_class}}"/>
-                </a>
-            </li>
-            <li>
-                <a class="banner_image_li" href="{{url}}">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1509035073000/image2.jpg"  class="{{gif_class}}"/>
-                </a>
-            </li>
-            <li>
-                <a class="banner_image_li" href="{{url}}">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1509035073000/image3.jpg"  class="{{gif_class}}"/>
-                </a>
-            </li>
-              <li>
-                <a class="banner_image_li" href="{{url}}">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1510767343000/new banner image 1.jpg"  class="{{gif_class}}"/>
-                </a>
-            </li>
-              <li>
-                <a class="banner_image_li" href="{{url}}">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1510767342000/new banner image 2.jpg"  class="{{gif_class}}"/>
-                </a>
-            </li>
-              <li>
-                <a class="banner_image_li" href="{{url}}">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1510767342000/new banner image 3.jpg"  class="{{gif_class}}"/>
-                </a>
-            </li>
+        <ul class="slides" id="home_banner">
+            <script id="banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  class="{{gif_class}}"/>
+                    </a>
+                </li>
+            </script>
         </ul>
     </div>
 </div>
+
+<!--<div class="content_container hidden_phone">-->
+<!--    <div class="flexslider">-->
+<!--        <ul class="slides">-->
+<!--            <li>-->
+<!--                <a class="banner_image_li" href="{{url}}">-->
+<!--                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1509035073000/image1.jpg"  class="{{gif_class}}"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a class="banner_image_li" href="{{url}}">-->
+<!--                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1509035073000/image2.jpg"  class="{{gif_class}}"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a class="banner_image_li" href="{{url}}">-->
+<!--                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1509035073000/image3.jpg"  class="{{gif_class}}"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--              <li>-->
+<!--                <a class="banner_image_li" href="{{url}}">-->
+<!--                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1510767343000/new banner image 1.jpg"  class="{{gif_class}}"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--              <li>-->
+<!--                <a class="banner_image_li" href="{{url}}">-->
+<!--                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1510767342000/new banner image 2.jpg"  class="{{gif_class}}"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--              <li>-->
+<!--                <a class="banner_image_li" href="{{url}}">-->
+<!--                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1510767342000/new banner image 3.jpg"  class="{{gif_class}}"/>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</div>-->
 
 <div class="content_container main_container hidden_phone">
     <div class="feature_row" id="feature_container">
