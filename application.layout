@@ -197,7 +197,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h4 class="site_map_heading">© 2017 - FAIR LAKES </h4>
+                    <h4 class="site_map_heading">&copy; <span id="current_year"></span - FAIR LAKES </h4>
                     <a href="//www.petersoncos.com/" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455904883000/client_peterson.png" class="footer_logo" alt=""></a>
                     <p class="rights_reserved">
                         All Rights Reserved
