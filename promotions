@@ -50,7 +50,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var published_promotions = getPublishedPromotionsList().sortBy(function(o){ return o.start_date });
+            var published_promos = getPublishedPromotionsList().sortBy(function(o){ return o.start_date });
             var categories = getStoreCategories();
             var category_list = [];
             $.each( categories, function( key, val ){
