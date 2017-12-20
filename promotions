@@ -50,7 +50,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
+            var published_promotions = getPublishedPromotionsList().sortBy(function(o){ return o.start_date });
             var categories = getStoreCategories();
             var category_list = [];
             $.each( categories, function( key, val ){
@@ -62,14 +62,7 @@
             renderGeneral('#mobile_cat_list', '#category_template2', category_list);
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores()
-            var published_promos = [];
-            $.each( promotions , function( key, val ){
-                today = moment();
-                webDate = moment(val.show_on_web_date);
-                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
-                    published_promos.push(val)
-                } 
-            });
+            
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos);
             } else {
