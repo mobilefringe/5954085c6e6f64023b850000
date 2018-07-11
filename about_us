@@ -1,4 +1,10 @@
 <style>
+    #mm_contact {
+        font-weight: lighter;
+        font-size: 16px;
+        color: #5F574B;
+        line-height: 26px;
+    }
     #mm_contact h2 {
         font-family: Georgia;
         font-style: italic;
