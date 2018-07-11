@@ -51,7 +51,7 @@
         });
         
         var contact_json = prefix + "/pages/fairlakes-about-us-contacts.json"
-        $.getJSONcontact_json).done(function(data) {
+        $.getJSON(contact_json).done(function(data) {
             $('#mm_contact').html(data.body);
         }).fail(function(jqXHR) {
             if (jqXHR.status == 404) {
