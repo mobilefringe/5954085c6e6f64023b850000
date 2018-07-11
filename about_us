@@ -48,7 +48,16 @@
             if (jqXHR.status == 404) {
                 $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
             }
-        }); 
+        });
+        
+        var contact_json = prefix + "/pages/fairlakes-about-us-contacts.json"
+        $.getJSONcontact_json).done(function(data) {
+            $('#mm_contact').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+            }
+        });
         show_content();
     }
 </script>
