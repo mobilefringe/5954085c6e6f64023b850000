@@ -26,20 +26,6 @@
             <div class="col-md-4">
                 <div class="col-md-12 property_right">
                     <div id="mm_contact"></div>
-                   <!-- <h2 class="promo_list_name">Property Management</h2>-->
-                   <!-- <div class="col-md-12">-->
-                   <!--     <a href="">Betty Rose</a>-->
-                   <!--     <div class="contact_addresss promo_list_desc">-->
-                   <!--         brose@petersoncos.com<br/>703-227-0884-->
-                   <!--     </div>-->
-                   <!-- </div>-->
-                   <!--<h2 class="promo_list_name">Leasing Inquiries</h2>-->
-                   <!-- <div class="col-md-12">-->
-                   <!--     <a href="">Will Donovan</a>-->
-                   <!--     <div class="contact_addresss promo_list_desc">-->
-                   <!--         Leasing Representative <br>wdonovan@petersoncos.com<br/>703-631-7560-->
-                   <!--     </div>-->
-                   <!-- </div>-->
                 </div>
             </div> 
         </div>
