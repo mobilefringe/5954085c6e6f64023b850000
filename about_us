@@ -1,3 +1,14 @@
+<style>
+    #mm_contact h2 {
+        font-family: Georgia;
+        font-style: italic;
+        font-size: 24px;
+        color: #424242;
+        letter-spacing: 0.5px;
+        margin-top: 5px;
+    }
+</style>
+
 <div class="content_container main_container">
     <h4 class="promo_main_header">About Us</h4>
     <div class="about_container">
