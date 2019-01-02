@@ -126,6 +126,7 @@
             renderStoreList('#east_market_container','#store_list_template', east_market, "A", "Z");
 
             var fair_lakes_center = getStoresListByCategoryID(933).sortBy(function(o){ return o.name });
+            console.log("fair_lakes_center", fair_lakes_center)
             renderStoreList('#fair_lakes_center_container','#store_list_template', fair_lakes_center, "A", "Z");
 
             var fair_lakes_shops = getStoresListByCategoryID(956).sortBy(function(o){ return o.name });
