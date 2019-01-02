@@ -220,9 +220,8 @@ function renderStoreList(container, template, collection, starter, breaker){
             item_rendered.push(rendered);
             $('.numbers_exist').css('display', 'block');
         }
-        // if (upper_current_initial.charCodeAt(0) <= breaker.charCodeAt(0) && upper_current_initial.charCodeAt(0) >= starter.charCodeAt(0)){
-            item_rendered.push(rendered);
-        // }
+        
+        item_rendered.push(rendered);
     });
     
     $(container).show();
