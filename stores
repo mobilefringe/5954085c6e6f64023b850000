@@ -151,13 +151,8 @@
 
             $("#map_image").attr("src", getPNGMapURL());
             $('#map').craftmap({
-    			image: {
-    				width: 1690,
-    				height: 800,
-    			},
-    			map: {
-    				position: 'center'
-    			}
+    			image: { width: 1690, height: 800 },
+    			map: { position: 'center' }
     		});
         }
         
