@@ -120,20 +120,20 @@
         init(e);
         function renderAll (){
             var stores = getStoresList(); 
-            renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
+            renderStoreList('#store_list_container_map','#store_list_template_map', stores);
             
             var east_market = getStoresListByCategoryID(913).sortBy(function(o){ return o.name });
-            renderStoreList('#east_market_container','#store_list_template', east_market, "A", "Z");
+            renderStoreList('#east_market_container','#store_list_template', east_market);
 
             var fair_lakes_center = getStoresListByCategoryID(933).sortBy(function(o){ return o.name });
             console.log("fair_lakes_center", fair_lakes_center)
             renderStoreList('#fair_lakes_center_container','#store_list_template', fair_lakes_center);
 
             var fair_lakes_shops = getStoresListByCategoryID(956).sortBy(function(o){ return o.name });
-            renderStoreList('#fair_lakes_shops_container','#store_list_template', fair_lakes_shops, "A", "Z");
+            renderStoreList('#fair_lakes_shops_container','#store_list_template', fair_lakes_shops);
 
             var hotels = getStoresListByCategoryID(958).sortBy(function(o){ return o.name });
-            renderStoreList('#hotels_container','#store_list_template', hotels, "A", "Z");
+            renderStoreList('#hotels_container','#store_list_template', hotels);
             
             show_content();
             
