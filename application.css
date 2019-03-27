@@ -754,7 +754,7 @@ body{
 }
 
 .about_container a {
-    color: #0070bf;
+    color: #0070bf !important;
 }
 
 .property_right{
