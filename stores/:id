@@ -29,7 +29,7 @@
                <div class="col-md-8">
                     <div id="map">
                         <div class="demo1">
-                            <img src="" class="imgMap" id="map_image" alt-"Map">                
+                            <img src="" class="imgMap" id="map_image" alt="Map">                
                         	<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">
                         	    {{name}}
                             </div>
