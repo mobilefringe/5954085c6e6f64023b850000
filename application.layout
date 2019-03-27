@@ -96,8 +96,8 @@
             <div class="col-md-4 col-xs-4">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
-                    <a class="social_fb" href="https://www.facebook.com/FairLakesLeague" target="_blank"></a>
-                    <a class="social_twitter" href="https://twitter.com/FairLakesLeague" target="_blank"></a>
+                    <a class="social_fb" href="https://www.facebook.com/FairLakesLeague" target="_blank" aria-label="Facebook"></a>
+                    <a class="social_twitter" href="https://twitter.com/FairLakesLeague" target="_blank" aria-label="Twitter"></a>
     
                     
                 </div>
