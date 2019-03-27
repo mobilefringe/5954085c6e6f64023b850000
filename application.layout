@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{meta_keywords}}">
+    <meta name="author" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <title>{{meta_title}}</title>
+
+    <!---Google Analytics-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-40014802-23', 'auto');
+        ga('send', 'pageview');
+    </script>
+   
+    <!--CSS-->
+    
+    <link href="//codecloud.cdn.speedyrails.net/sites/54b83f086e6f646b45000000/60cb7d89e157debbb7914a941327ad2c/animate.css" rel="stylesheet">
+    <link href="//codecloud.cdn.speedyrails.net/sites/54b83f086e6f646b45000000/60cb7d89e157debbb7914a941327ad2c/prettyPhoto.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/scaffold.css" rel="stylesheet">
+    <link href="/application.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    
+    <!--Javascript-->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
+    <script src="../site.js" type="text/javascript"></script>
+    <script src="../application.js" type="text/javascript"></script>
+    <script src="../helpers.js" type="text/javascript"></script>
+    
+    <!--MallMaverick SDK-->
+    <script src="//mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>
+    <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
+    
+    <script>
+        setEndPoint('//fairlakes.mallmaverick.com/api/v4/fairlakes/all.json');
+    </script>
+</head>
+
+<body class="">
+    <div class="mobile_menu_container">
+        <div class="opened_mobile_menu">
+            <h4>MENU</h4>
+            <ul>
+                <li><a href="/stores">DIRECTORY</a></li>
+                <li><a href="/promotions">SPECIAL OFFERS</a></li>
+                <li><a href="https://www.mallmaverick.com/system/site_images/photos/000/035/071/original/_FL_View_Winter17_rF.pdf?1512154365">A VIEW FROM FAIR LAKES</a></li>
+                <li><a href="/shuttle">SHUTTLE</a></li>
+                <li><a href="/events">EVENTS</a></li>
+                <li><a href="/directions">DIRECTIONS</a></li>
+                <li><a href="/about_us">ABOUT US</a></li>
+                <li><a href="/contact">CONTACT US</a></li>
+            </ul>
+            <h4 id="close_menu">close</h4>
+            <hr class="strikethrough" />
+            <div class="social_icons_menu show_phone text-center">
+                <p>Follow us on</p>
+                <a href="https://www.facebook.com/FairLakesLeague" target="_blank">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143423000/icon_facebook_white.png" class="" alt="FB">
+                </a>
+                <a href="https://twitter.com/FairLakesLeague" target="_blank">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143456000/icon_twitter_white.png" class="" alt="Twitter">
+                </a>
+               
+                </a>
+                <!--<a href="/newsletter" target="_blank">-->
+                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472143466000/icon_newsletter_white.png" class="" alt="">-->
+                <!--</a>-->
+            </div>
+        </div>
+    </div>
+    <section class="content_container main_container position_relative">
+        <div class="mobile_search ">
+            <input type="text" placeholder="Search" id="site_search" class="site_search" />
+            <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
+        </div>
+        <div class="row header mobile_margin">
+            <div class="col-md-4 col-xs-4">
+                <p class="hidden_phone">Follow us on</p>
+                <div class="social_icons hidden_phone">
+                    <a class="social_fb" href="https://www.facebook.com/FairLakesLeague" target="_blank"></a>
+                    <a class="social_twitter" href="https://twitter.com/FairLakesLeague" target="_blank"></a>
+    
+                    
+                </div>
+                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
+            </div>
+            <div class="col-md-4 col-xs-4 text-center">
+                <a href="/">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/59b99e8d6e6f640e04790100/image/jpeg/1508802824000/Fair Lakes Logo.jpg" class="main_logo " alt="main_logo">
+                </a>
+            </div>
+            <!--<div class="col-md-4 col-xs-4 text-right position_relative">-->
+            <!--    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn " alt="search">-->
+            <!--    <input type="text" placeholder="Search" id="site_search" class="site_search search_field hidden_phone" />-->
+            <!--    <div class="search_results_container">-->
+            <!--        <div class="site_search_results" id="search_results_stores"></div>-->
+            <!--        <div class="site_search_results" id="search_results_events"></div>-->
+            <!--        <div class="site_search_results" id="search_results_promotions"></div>-->
+            <!--    </div>-->
+            <!--</div>-->
+        </div>
+        
+        <div class="menu_container hidden_phone">
+            <a href="/stores">directory</a>
+            <a href="/events">events</a>
+            <a href="/promotions">special offers</a>
+             <a href="/shuttle">shuttle</a>
+            <a href="/directions">directions</a>
+        </div>
+    </section>
+    <section class="yield">
+        {{yield}}
+    </section>
+    
+    <section class="content_container main_container">
+        <!--<div class="newsletter_container text-center">-->
+        <!--    <h2 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h2>-->
+        <!--    <p class="newsletter_desc">Special Offers <br class="show_phone" /><span>•</span> New Store Openings <br class="show_phone" /><span>•</span> Exclusive Events</p>-->
+        <!--    <a href="/newsletter" class="newsletter_btn animated_btn">Subscribe</a>-->
+        <!--</div>-->
+        <div class="site_map">
+            <div class="row">
+                <div class="col-md-4 right_border">
+                    <div class="hidden_phone">
+                        <h4 class="site_map_heading">VISIT US</h4>
+                        <p class="site_map_desc">
+                            Fair Lakes Management Office
+                            <br />
+                            12500 Fair Lakes Circle
+                            <br />
+                             Fairfax, VA 22030
+                            <br />
+                            <a href="https://www.google.com/maps/d/viewer?mid=1Mvn_oAEOe3ZIuyCSnCysw0-iby0&hl=en&ll=38.85986100572079%2C-77.38438550000001&z=16" target="_blank">Open Maps! ></a>
+                        </p>
+                    </div>
+                    <div class="show_phone">
+                        <h4 class="site_map_heading">SOCIAL</h4>
+                        <p class="site_map_desc">
+                            Connect with us!
+                        </p>
+                        <div class="social_icons">
+                            <a href="https://www.facebook.com/FairLakesLeague" target="_blank" aria-label="Facebook">
+                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142462000/icon_facebook.png" class="" alt="FB">
+                            </a>
+                            <a href="https://twitter.com/FairLakesLeague" target="_blank" aria-label="Twitter">
+                                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1472142477000/icon_twitter.png" class="" alt="Twitter">
+                            </a>
+                           
+                           
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 right_border">
+                    <h4 class="site_map_heading">SITE MAP</h4>
+                    <div class="row footer_site_map">
+                        <div class="col-md-6 col-xs-6">
+                            <ul>
+                                <li><a href="/stores">Directory</a></li>
+                                <li><a href="/promotions">Special Offers</a></li>
+                                <li><a href="/shuttle">Shuttle</a></li>
+                                <li><a href="/events">Events</a></li>
+                                <li><a href="/directions">Directions</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <ul>
+                                <li><a href="/jobs">Jobs</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
+                                <li><a href="/about_us">About Us</a></li>
+                                <li><a href="/pages/fairlakes-terms-of-website-use" target="_blank">Terms of Use</a></li>
+                                 <li><a href="/pages/fairlakes-privacy-policy" target="_blank">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="site_map_heading">&copy; <span id="current_year"></span> - FAIR LAKES </h4>
+                    <a href="//www.petersoncos.com/" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455904883000/client_peterson.png" class="footer_logo" alt=""></a>
+                    <p class="rights_reserved">
+                        All Rights Reserved
+                        <br />
+                        Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
