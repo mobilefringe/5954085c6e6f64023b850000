@@ -89,6 +89,7 @@
     </div>
     <section class="content_container main_container position_relative">
         <div class="mobile_search ">
+            <label for="site_search" style="display: none">Search</label>
             <input type="text" placeholder="Search" id="site_search" class="site_search" />
             <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
         </div>
