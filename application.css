@@ -581,7 +581,7 @@ body{
 
 .store_initial{
     font-size: 24px;
-    color: #DCBB8D;
+    color: #9a6c2c;
     border-bottom: 1px solid #979797;
     padding: 10px;
     margin-bottom: 20px;
@@ -647,14 +647,14 @@ body{
 .promo_main_header{
     font-weight:bold;
     font-size: 22px;
-    color: #DCBB8D;
+    color: #9a6c2c;
     padding-bottom:20px;
     margin-bottom: 20px;
     padding-top:20px;
     margin-top:0;
     border-bottom: 1px solid #000;
     a{
-        color: #DCBB8D;
+        color: #9a6c2c;
     }
 }
 
@@ -823,7 +823,7 @@ body{
     text-transform: uppercase;
     font-weight:bold;
     font-size: 22px;
-    color: #DCBB8D;
+    color: #9a6c2c;
     margin-bottom:25px;
     padding-bottom:10px;
     border-bottom:1px solid #000;
@@ -1045,7 +1045,7 @@ body{
     
     .promo_main_header select{
         margin-top:10px;
-        color: #DCBB8D;   
+        color: #9a6c2c;   
     }
     .mobile_padding{
         padding-left:10px;
@@ -1163,7 +1163,7 @@ body{
     }
     
     .stores_main_heading{
-        color: #DCBB8D;
+        color: #9a6c2c;
     }
     
     .stores_main_desc{
@@ -1181,7 +1181,7 @@ body{
     .mobile_dd{
         background: #F1F1F1;
         font-size: 20px;
-        color: #DCBB8D;
+        color: #9a6c2c;
         letter-spacing: 1.5px;
         text-align:center;
         width:100%;
@@ -1194,14 +1194,14 @@ body{
         height:39px;
         margin-bottom:10px;
         background: #F1F1F1;
-        color: #DCBB8D;
+        color: #9a6c2c;
         &::focus{
             outline:none;
         }
     }
     
     .category_header{
-        color: #DCBB8D;
+        color: #9a6c2c;
         font-size:20px;
         text-transform: uppercase;
         text-align:center;
@@ -1409,7 +1409,7 @@ body{
     
     
     .category_header{
-        color: #DCBB8D;
+        color: #9a6c2c;
         font-size:20px;
         text-transform: uppercase;
         margin-top: 12px;
@@ -1420,9 +1420,9 @@ body{
         font-size:16px;
     }
     .active_cat{
-        color: #DCBB8D;
+        color: #9a6c2c;
         &:hover, &:focus{
-            color: #DCBB8D;;
+            color: #9a6c2c;
         }
     }
     .alpha_list{
