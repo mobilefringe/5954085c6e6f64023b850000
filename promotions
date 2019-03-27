@@ -20,7 +20,7 @@
                             <img src="{{image_url}}" alt="{{name}}" />
                         </div>
                         <div class="col-md-7">
-                            <h2 class="promo_list_name"><a class="hover_underline" href="/promotions/{{slug}}">{{name}}</a></h2>
+                            <h2 class="promo_list_name">{{name}}</h2>
                             <p>
                           
                             </p>
