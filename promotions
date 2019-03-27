@@ -1,0 +1,66 @@
+<div class="content_container main_container">
+    <div class="promo_main_header">
+        SPECIALS
+        <label for="mobile_cat_list">Category</label>
+        <select id="mobile_cat_list" class="show_phone  form-control">
+            <script id="category_template2" type="x-tmpl-mustache/text">
+                <option value="{{id}}">{{name}}</option>
+            </script>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="no_promos" class="hidden_now">
+                <p>There are currently no promotions, please check back again later.</p>
+            </div>
+            <div id="promos_container">
+                <script id="promos_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                        <div class="col-md-5">
+                            <img src="{{image_url}}" alt="{{name}}" />
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="promo_list_name"><a class="hover_underline" href="/promotions/{{slug}}">{{name}}</a></h2>
+                            <p>
+                          
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/promotions/{{slug}}">Read More</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+        <div class="col-md-4 hidden_phone"></div> 
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var published_promos = getPublishedPromotionsList().sortBy(function(o){ return o.start_date });
+            var categories = getStoreCategories();
+            var category_list = [];
+            $.each( categories, function( key, val ){
+                if (val.store_ids != null) {
+                    category_list.push(val);
+                } 
+            });
+            renderGeneral('#category_container', '#category_template', category_list);
+            renderGeneral('#mobile_cat_list', '#category_template2', category_list);
+            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            show_cat_stores()
+            
+            if(published_promos.length > 0){
+                renderPromotions("#promos_container","#promos_template", published_promos);
+            } else {
+                $('#no_promos').show();
+                $('#promo_categories').hide();
+            }
+            show_content();
+        }
+        
+		loadMallDataCached(renderAll); 
+    })
+</script>
